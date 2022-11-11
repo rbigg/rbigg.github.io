@@ -1,0 +1,156 @@
+body {
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	padding: 5%;
+}
+h1 {
+	font-size: 1.4em;
+	color: DarkCyan;
+}
+h2 {
+	font-size: 1.2em;
+	color: CadetBlue;
+}
+
+ul {
+	list-style-type: square;
+	color: CadetBlue;
+	line-height: 1.5em;
+	
+}
+li {
+	color: black;
+	padding-bottom: 5px;
+}
+
+a{
+	color: #1e6392; 
+	text-decoration: none;
+}
+a:link{
+	color: #1e6392; 
+	text-decoration: none;
+}
+a:visited{
+	color: #1e6392; 
+	text-decoration: none;
+}
+a:active{
+	color: #1e6392; 
+	text-decoration: none;
+}
+a:hover{
+	color: #1e6392; 
+	text-decoration: underline;
+}
+	
+.backhome {
+	text-align: center;
+	text-shadow: 1px 1px 2px CadetBlue;
+	font-size: 1.2em;
+	padding-top: 25px;
+}
+
+.banner {
+	width: 100%;
+	background-image: url("/images/turingbombe.jpg");
+	background-size: 100%;
+}
+
+.biblio {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.biblio li {
+  padding-left: 1.2em;
+}
+
+.biblio li::before {
+  content: "🔘";
+  font-size: 0.75em;
+  
+  display: inline-block;
+  margin-left: -1.4em;
+}
+
+.content {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	text-align: justify;
+}
+
+.credits {
+	margin-top: 15px;
+	padding-top: 5px;
+	border-top: 1px solid #999;
+	font-size: 0.66em;
+	color: darkgrey;
+	width: 100%;
+}
+
+.righthdr {
+	float: right;
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: right;
+	color: AntiqueWhite;
+	padding-right: 2.5%;
+}
+
+.social {
+	font-size: 1em;
+	padding-left: 5px;
+	
+}
+
+.spacer10 {
+	height: 10px;
+}
+
+.spacer25 {
+	height: 25px;
+}
+
+.spacer50 {
+	height: 50px;
+}
+
+.subtitle {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1.1em;
+	color: Wheat;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 1.6em;
+	color: LightBlue;
+	padding-left: 2.5%;
+}
+
+.warning {
+	font-size: 1.6em;
+	text-shadow: 1px 1px 3px CadetBlue;
+}
+
+.wip {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wip li {
+  padding-left: 1.2em;
+}
+
+.wip li::before {
+  content: "📂";
+  font-size: 0.75em;
+  
+  display: inline-block;
+  margin-left: -1.4em;
+}
