@@ -1,6 +1,7 @@
 body {
 	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 	padding: 5%;
+	color: DarkSlateGrey;
 }
 h1 {
 	font-size: 1.4em;
@@ -18,7 +19,6 @@ ul {
 	
 }
 li {
-	color: black;
 	padding-bottom: 5px;
 }
 
@@ -64,6 +64,7 @@ a:hover{
 
 .biblio li {
   padding-left: 1.2em;
+  color: DarkSlateGrey;
 }
 
 .biblio li::before {
@@ -78,6 +79,7 @@ a:hover{
 	padding-left: 2.5%;
 	padding-right: 2.5%;
 	text-align: justify;
+	color: DarkSlateGrey;
 }
 
 .credits {
@@ -85,7 +87,7 @@ a:hover{
 	padding-top: 5px;
 	border-top: 1px solid #999;
 	font-size: 0.66em;
-	color: darkgrey;
+	color: DarkGrey;
 	width: 100%;
 }
 
@@ -132,6 +134,12 @@ a:hover{
 	padding-left: 2.5%;
 }
 
+.txt{
+	text-align: justify;
+	line-height: 1.5;
+	color: DarkSlateGrey;
+}
+
 .warning {
 	font-size: 1.6em;
 	text-shadow: 1px 1px 3px CadetBlue;
@@ -145,6 +153,7 @@ a:hover{
 
 .wip li {
   padding-left: 1.2em;
+  color: DarkSlateGrey;
 }
 
 .wip li::before {
