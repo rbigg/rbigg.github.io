@@ -23,24 +23,28 @@ li {
 }
 
 a{
-	color: #1e6392; 
+	color: #286f87; 
 	text-decoration: none;
 }
 a:link{
-	color: #1e6392; 
-	text-decoration: none;
+	color: #286f87; 
+	xtext-decoration: none;
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: LightBlue;
 }
 a:visited{
-	color: #1e6392; 
+	color: #286f87; 
 	text-decoration: none;
 }
 a:active{
-	color: #1e6392; 
+	color: #286f87; 
 	text-decoration: none;
 }
 a:hover{
-	color: #1e6392; 
+	color: #286f87; 
 	text-decoration: underline;
+	text-decoration-style: solid;
 }
 	
 .backhome {
