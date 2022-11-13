@@ -28,7 +28,6 @@ a{
 }
 a:link{
 	color: #286f87; 
-	xtext-decoration: none;
 	text-decoration-line: underline;
 	text-decoration-style: dashed;
 	text-decoration-color: LightBlue;
@@ -36,10 +35,12 @@ a:link{
 a:visited{
 	color: #286f87; 
 	text-decoration: none;
+	text-decoration-color: LightBlue;
 }
 a:active{
 	color: #286f87; 
 	text-decoration: none;
+	text-decoration-color: LightBlue;
 }
 a:hover{
 	color: #286f87; 
@@ -147,7 +148,7 @@ a:hover{
 
 .warning {
 	font-size: 1.6em;
-	text-shadow: 1px 1px 3px CadetBlue;
+	text-shadow: 1px 1px 2px LightBlue;
 }
 
 .wip {
