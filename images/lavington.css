@@ -96,7 +96,9 @@ a:hover{
 	color: DarkGrey;
 	width: 100%;
 }
-
+.project-content {
+	padding left: 5px;
+}
 .righthdr {
 	float: right;
 	font-size: 0.9em;
