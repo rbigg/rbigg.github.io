@@ -51,7 +51,7 @@ a:hover{
 	
 .backhome {
 	text-align: center;
-	text-shadow: 1px 1px 2px CadetBlue;
+	/*text-shadow: 1px 1px 2px CadetBlue;*/
 	font-size: 1.2em;
 	padding-top: 25px;
 }
