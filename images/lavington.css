@@ -12,6 +12,11 @@ h2 {
 	color: CadetBlue;
 }
 
+h3 {
+	font-size: 1em;
+	color: LightBlue;
+}
+
 ul {
 	list-style-type: square;
 	color: CadetBlue;
