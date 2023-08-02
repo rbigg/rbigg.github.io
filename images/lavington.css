@@ -96,14 +96,28 @@ a:hover{
 .credits {
 	margin-top: 15px;
 	padding-top: 5px;
-	border-top: 1px solid #999;
+	border-top: 1px solid DarkGrey;
 	font-size: 0.66em;
 	color: DarkGrey;
 	width: 100%;
 }
+
+.footnotes {
+	font-size: 0.8em;
+	color: DarkSlateGrey;
+	width: 100%;
+}
+
+.footnotes hr {
+	border: 0;
+	border-top: 1px solid DarkGrey;
+	height: 1px;
+}
+
 .project-content {
 	padding left: 5px;
 }
+
 .righthdr {
 	float: right;
 	font-size: 0.6em;
@@ -112,15 +126,18 @@ a:hover{
 	color: AntiqueWhite;
 	padding-right: 2.5%;
 }
+
 .shaded table {
 	width: 100%;
 	text-align: left;
 
 }
+
 .shaded td {
 	padding-left: 5px;
 	text-align: left;
 }
+
 .shaded th {
 	font-weight: bold;
 	color: White;
@@ -128,6 +145,7 @@ a:hover{
 	padding-left: 5px;
 	text-align: left;
 }
+
 .shaded tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
